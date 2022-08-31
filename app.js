@@ -6,9 +6,9 @@ const luckyPara = document.querySelector("#lucky-para")
 
 function userData(sum, luckyBox) {
     if (sum % luckyBox===0) {
-        luckyPara.innerText = "Your Birthday Is Lucky😊";
+        luckyPara.innerText = "Your Birthdate Is Lucky😊";
     }else {
-        luckyPara.innerText = "Your Birthday Is Unlucky😥";
+        luckyPara.innerText = "Your Birthdate Is Unlucky😥";
     }
 }
 
